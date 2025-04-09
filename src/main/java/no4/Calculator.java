@@ -8,7 +8,6 @@ public class Calculator {
         try {
             int numA = Integer.parseInt(a);
             int numB = Integer.parseInt(b);
-
             return numA + numB;
         } catch (Exception e) {
             throw new NumberFormatException("Invalid value!");
