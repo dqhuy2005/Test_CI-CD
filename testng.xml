@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteDemo">
+    <!-- Demo Regression Test 1-->
+    <test name="Regression Suite 1">
+        <groups>
+            <run>
+                <include name="regressionTest"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.TestNG"/>
+        </classes>
+    </test>
+
+    <!-- Module Test 2-->
+    <test name="Test VAT Calculator">
+        <groups>
+            <run>
+                <include name="testVATCalculator"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.TestTestNG"/>
+        </classes>
+    </test>
+
+    <test name="Module 3">
+        <groups>
+            <run>
+                <include name="regressionTest"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="GroupTest"/>
+        </classes>
+    </test>
+
+    <test name="Module 4">
+        <classes>
+            <class name="PositiveNumberTest"/>
+        </classes>
+    </test>
+</suite>
