@@ -1,10 +1,15 @@
+import no4.Calculator;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class GroupTest {
 
+    private final Calculator calculator = new Calculator();
+
     @Test(groups = "regressionTest")
     public void testGroup() {
-        System.out.println("Group Test 1!");
+        // This is multiply test.
+        Assert.assertEquals(calculator.multiply(2, 4), 8);
     }
 
     @Test(groups = "regressionTest")
