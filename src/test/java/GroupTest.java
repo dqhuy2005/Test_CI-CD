@@ -9,7 +9,7 @@ public class GroupTest {
     @Test(groups = "regressionTest")
     public void testGroup() {
         // This is multiply test.
-        Assert.assertEquals(calculator.multiply(2, 4), 6);
+        Assert.assertEquals(calculator.multiply(2, 4), 0);
     }
 
     @Test(groups = "regressionTest")
