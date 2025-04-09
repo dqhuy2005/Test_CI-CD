@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Test on Window
+    name: Test on Windows
     runs-on: ubuntu-latest
 
     steps:
