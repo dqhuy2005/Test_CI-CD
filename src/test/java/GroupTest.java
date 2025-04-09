@@ -8,6 +8,7 @@ public class GroupTest {
 
     @Test(groups = "regressionTest")
     public void testGroup() {
+        // This is multiply test.
         Assert.assertEquals(calculator.multiply(2, 4), 8);
     }
 
