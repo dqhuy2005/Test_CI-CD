@@ -27,7 +27,7 @@ public class Calculator {
     }
 
     public int multiply(int a, int b) {
-        return a * b;
+        return 0;
     }
 
     public int divide(int a, int b) {
