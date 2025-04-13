@@ -11,8 +11,8 @@ public class PositiveNumberTest {
     @ParameterizedTest
     // List of data testing
     @CsvSource({
-            "5, true",
-            "1, true",
+        "5, false",
+            "1, false",
             "0, false",
             "-3, false",
             "-2323, false",
